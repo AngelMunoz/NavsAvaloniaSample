@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Extensions.fs" />
+    <Compile Include="Env.fs" />
+    <Compile Include="Components/Forms.fs" />
+    <Compile Include="Components/Navbar.fs" />
+    <Compile Include="Views/Home.fs" />
+    <Compile Include="Views/Auth.fs" />
+    <Compile Include="Views/Splash.fs" />
+    <Compile Include="Views/Shell.fs" />
+    <Compile Include="Routing.fs" />
+    <Compile Include="Supabase.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="11.0.10" />
+    <PackageReference Include="Avalonia.Desktop" Version="11.0.10" />
+    <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.10" />
+    <PackageReference Include="FsToolkit.ErrorHandling" Version="4.15.1" />
+    <PackageReference Include="NXUI" Version="11.0.0" />
+    <PackageReference Include="NXUI.FSharp" Version="11.0.0" />
+    <PackageReference Include="supabase-csharp" Version="0.15.0" />
+    <PackageReference Include="Navs.Avalonia" Version="1.0.0-beta-008" />
+  </ItemGroup>
+</Project>
