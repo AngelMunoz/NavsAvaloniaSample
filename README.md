@@ -2,6 +2,7 @@
 [NXUI]: https://github.com/wieslawsoltes/NXUI
 [Navs]: https://github.com/AngelMunoz/Navs
 [Supabase]: https://supabase.com
+[FSharp.Data.Adaptive]: https://fsprojects.github.io/FSharp.Data.Adaptive/
 
 # The Navs testing ground.
 
